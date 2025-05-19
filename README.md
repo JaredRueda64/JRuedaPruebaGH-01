@@ -1,2 +1,2 @@
-# JRuedaPruebaGH-01
-Tercera prueba de configuración de SDS con Unity y Git
+# Snapdragon SDK Configuration for unity
+Desgraciadamente no hay información.
