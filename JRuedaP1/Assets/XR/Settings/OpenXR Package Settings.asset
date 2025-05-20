@@ -38,13 +38,10 @@ MonoBehaviour:
     enabled: 1
   forceRemoveInternetPermission: 0
   symmetricProjection: 0
-  foveatedRenderingApi: 0
   systemSplashScreen: {fileID: 0}
   optimizeBufferDiscards: 1
   lateLatchingMode: 0
   lateLatchingDebug: 0
-  optimizeMultiviewRenderRegions: 0
-  spacewarpMotionVectorTextureFormat: 0
 --- !u!114 &-8511201557673646325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90,7 +87,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2479fa37ffc4a3c947342fe19e48b14, type: 3}
   m_Name: SpatialMeshingFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Spatial Meshing
   version: 1.0.2
   featureIdInternal: com.qualcomm.snapdragon.spaces.sceneunderstanding
@@ -232,7 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9f28604357aa423280cce3487eaa981, type: 3}
   m_Name: SpatialAnchorsFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Spatial Anchors
   version: 1.0.2
   featureIdInternal: com.qualcomm.snapdragon.spaces.spatialanchors
@@ -335,7 +332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dea66e4d7ae49b49f6af51ea3cf905e, type: 3}
   m_Name: PlaneDetectionFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Plane Detection
   version: 1.0.2
   featureIdInternal: com.qualcomm.snapdragon.spaces.planedetection
@@ -377,7 +374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a55e2f339a4744babb080d663cf37a2f, type: 3}
   m_Name: BaseRuntimeFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Base Runtime
   version: 1.0.2
   featureIdInternal: com.qualcomm.snapdragon.spaces.base
@@ -489,7 +486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38a861d4a23e44d29a964fa9517458e1, type: 3}
   m_Name: QrCodeTrackingFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: QR Code Tracking
   version: 1.0.2
   featureIdInternal: com.qualcomm.snapdragon.spaces.qrcodetracking
@@ -566,7 +563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3d25b6c93e04925bb42da7f2fdf8027, type: 3}
   m_Name: SpacesMicrosoftMixedRealityMotionControllerProfile Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Microsoft Mixed Reality Motion Controller Profile
   version: 1.0.2
   featureIdInternal: com.unity.openxr.feature.input.microsoftmotioncontroller
@@ -696,7 +693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd1a99ebd75e49d1bc4152cccc8e2550, type: 3}
   m_Name: HitTestingFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hit Testing
   version: 1.0.0
   featureIdInternal: com.qualcomm.snapdragon.spaces.raycasting
@@ -737,7 +734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acc47cb09ff09f84886c3843083dc0ef, type: 3}
   m_Name: FoveatedRenderingFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Foveated Rendering
   version: 1.0.2
   featureIdInternal: com.qualcomm.snapdragon.spaces.foveatedrendering
@@ -759,7 +756,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22ae41aadce15674187d35d57afdf758, type: 3}
   m_Name: CameraAccessFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Camera Access
   version: 1.0.2
   featureIdInternal: com.qualcomm.snapdragon.spaces.cameraaccess
@@ -884,7 +881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7eb03d48a4e23493fba7b405178b6b3d, type: 3}
   m_Name: ImageTrackingFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Image Tracking
   version: 1.0.2
   featureIdInternal: com.qualcomm.snapdragon.spaces.imagetracking
@@ -1021,7 +1018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
@@ -1052,7 +1049,6 @@ MonoBehaviour:
   - {fileID: 4206170317035723128}
   - {fileID: -4629495517613352906}
   - {fileID: 8002722242806254243}
-  - {fileID: 4003256939504656394}
   - {fileID: 2229542971481264933}
   - {fileID: 2679391181559432453}
   - {fileID: 6511634411697356431}
@@ -1061,13 +1057,8 @@ MonoBehaviour:
   - {fileID: -1594629990524157188}
   - {fileID: 6154676017553766612}
   - {fileID: 7786726075511839532}
-  - {fileID: -4831739262963335217}
   m_renderMode: 1
-  m_autoColorSubmissionMode: 1
-  m_colorSubmissionModes:
-    m_List: 00000000
   m_depthSubmissionMode: 0
-  m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
 --- !u!114 &7773027184586767066
@@ -1150,37 +1141,31 @@ MonoBehaviour:
   - {fileID: 4066828024147418720}
   - {fileID: -4633559330883315482}
   - {fileID: -8511201557673646325}
-  - {fileID: -7117776891278117795}
   - {fileID: -1288005267688843273}
   - {fileID: 3231603543513957815}
+  - {fileID: -7117776891278117795}
   - {fileID: -7051229732248919799}
   - {fileID: -6803984576082101180}
   - {fileID: 2734089225525973345}
   - {fileID: 5315783213571884875}
   - {fileID: 1473139624692828162}
   - {fileID: -9012162399753392681}
-  - {fileID: 5514548530898525769}
   - {fileID: -6671949309557700169}
   - {fileID: -3336671070431015989}
-  - {fileID: 1106628235285840809}
   - {fileID: 2757565445236842636}
   - {fileID: 7773027184586767066}
   - {fileID: 6851271479440424692}
+  - {fileID: 8723851184273613215}
   - {fileID: 5084282219571499861}
   - {fileID: -1393686225012904399}
   - {fileID: -3836005439189285240}
   - {fileID: -741075594603051281}
   - {fileID: -2026716251018841535}
+  - {fileID: 1106628235285840809}
   - {fileID: -5640751906230340771}
   - {fileID: -8257690679121299901}
-  - {fileID: 1887747599873967113}
-  - {fileID: 8723851184273613215}
   m_renderMode: 1
-  m_autoColorSubmissionMode: 1
-  m_colorSubmissionModes:
-    m_List: 00000000
   m_depthSubmissionMode: 0
-  m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
 --- !u!114 &8723851184273613215
